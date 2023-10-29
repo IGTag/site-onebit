@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --font-padrão: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: lightgray;
+    height: 100vh;
+    font-family: var(--font-padrão);
+}
+
+main {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    width: 400px;
+    max-height: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+p{
+    padding: 5px;
+}
+
+#titulo{
+    font-size: 2em;
+    color: rgba(255, 0, 0, 0.301);
+    font-family:var(--font-padrão)
+}
